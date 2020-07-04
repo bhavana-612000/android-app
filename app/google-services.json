@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672261621721",
+    "firebase_url": "https://cluster-f740f.firebaseio.com",
+    "project_id": "cluster-f740f",
+    "storage_bucket": "cluster-f740f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672261621721:android:ffde1016bca22e18b37bc8",
+        "android_client_info": {
+          "package_name": "com.example.cluster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672261621721-d7n7mlrequ2t5brs8ca897dqp6quj0ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cluster",
+            "certificate_hash": "77c71ee129c58d31628f01c58a37e855df02c9f1"
+          }
+        },
+        {
+          "client_id": "672261621721-qjcnimja22ov5qe39hfpp1tolrhn645p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCIj6LLqoA4C1OcwwV2P07aQ_9Jv3sA1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672261621721-qjcnimja22ov5qe39hfpp1tolrhn645p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

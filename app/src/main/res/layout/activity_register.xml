@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/register_mail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/register_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/register_password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@id/register_mail_layout">
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="5dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_register"
+        android:layout_below="@id/register_password_layout"
+        android:background="@drawable/button"
+        />
+
+    <TextView
+        android:id="@+id/haveaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have account?  Login"
+        android:textAlignment="center"
+        android:layout_below="@id/register_button"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorBlack"/>
+
+
+
+</RelativeLayout>
